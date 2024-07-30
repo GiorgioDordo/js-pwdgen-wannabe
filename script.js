@@ -1,3 +1,14 @@
+/* 
+1. Recuperiamo l'elemento dal DOM
+2. Impostiamo l'age
+3. Impostiamo un messaggio per presentare la password
+4. Chiediamo il nome
+5. Chiediamo il cognome
+6. Chiediamo il colore preferito
+7. Uniamo i dati per creare la password
+8. Esponiamo il risultato nel DOM
+*/
+
 console.log('JS OK');
 
 // Recupero l'elemento in pagina
@@ -7,7 +18,7 @@ console.log(resultElement);
 // Raccolgo i dati
 
 // AGE
-const age = '25';
+const age = 25;
 
 // Mesaggio per presentare la password
 const message = `La tua password:`;
