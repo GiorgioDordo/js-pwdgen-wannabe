@@ -1,0 +1,31 @@
+console.log('JS OK');
+
+// Recupero l'elemento in pagina
+const resultElement = document.getElementById('result');
+console.log(resultElement);
+
+// Raccolgo i dati
+
+// AGE
+const age = '25';
+
+// Mesaggio per presentare la password
+const message = `La tua password:`;
+
+// NAME
+const firstName = prompt('Come ti chiami?', 'Dordo');
+console.log(firstName);
+
+// LASTNAME
+const lastName = prompt('Ed il cognome?', 'Dekanovic');
+console.log(lastName);
+
+const color = prompt('Il tuo colore preferito', 'verde');
+console.log(color);
+
+// CREO LA PASSWORD
+const password = firstName + lastName + color + age;
+console.log(password);
+
+// Output della password
+resultElement.innerHTML = `La tua password: ${password}`;
